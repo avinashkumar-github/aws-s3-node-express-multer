@@ -1,0 +1,27 @@
+{
+  "name": "aws-s3-node-express-multer",
+  "version": "1.0.0",
+  "description": "Upload a file to AWS S3 Bucket, using multer module node express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinashkumar-github/aws-s3-node-express-multer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinashkumar-github/aws-s3-node-express-multer/issues"
+  },
+  "homepage": "https://github.com/avinashkumar-github/aws-s3-node-express-multer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.923.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
